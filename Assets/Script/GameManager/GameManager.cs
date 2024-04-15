@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI textCounter;
     private int correctlyColored;
 
+    public GameObject completeLevelUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         updateTextCounter();
+        checkWinCondition();
     }
 
     public void updateTextCounter()
@@ -41,5 +44,18 @@ public class GameManager : MonoBehaviour
                 correctlyColored--;
             }
         }
+    }
+
+    public void checkWinCondition()
+    {
+        if (correctlyColored == colorableParts.Length)
+        {
+            CompleteLevel();
+        }
+    }
+
+    public void CompleteLevel()
+    {
+        completeLevelUI.SetActive(true);
     }
 }
