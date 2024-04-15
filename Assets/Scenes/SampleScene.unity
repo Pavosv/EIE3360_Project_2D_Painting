@@ -145,9 +145,10 @@ GameObject:
   - component: {fileID: 106390234}
   - component: {fileID: 106390237}
   - component: {fileID: 106390236}
+  - component: {fileID: 106390238}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Face
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,7 +214,7 @@ Transform:
   m_GameObject: {fileID: 106390233}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.484694, y: 1.505105, z: 0}
+  m_LocalPosition: {x: -0.4852, y: 1.505105, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -417,6 +418,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &106390238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106390233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 3
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &128457908
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,9 +444,10 @@ GameObject:
   - component: {fileID: 128457912}
   - component: {fileID: 128457911}
   - component: {fileID: 128457910}
+  - component: {fileID: 128457914}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Body_4
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -585,6 +601,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &128457914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128457908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 0
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &198200474
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,9 +627,10 @@ GameObject:
   - component: {fileID: 198200478}
   - component: {fileID: 198200477}
   - component: {fileID: 198200476}
+  - component: {fileID: 198200479}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Background_2
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -765,6 +796,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &198200479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198200474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 2
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &225307352
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,9 +822,10 @@ GameObject:
   - component: {fileID: 225307356}
   - component: {fileID: 225307355}
   - component: {fileID: 225307354}
+  - component: {fileID: 225307357}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Scarf_1
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -959,6 +1005,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &225307357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225307352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 1
+  paintBucket: {fileID: 1774338647}
 --- !u!224 &308342515 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5884159640580732120, guid: 40ce7242d7da0a549bc69b1f8b6015fc, type: 3}
@@ -1098,9 +1158,10 @@ GameObject:
   - component: {fileID: 383765891}
   - component: {fileID: 383765890}
   - component: {fileID: 383765889}
+  - component: {fileID: 383765892}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Shirt_3
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1254,6 +1315,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &383765892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383765887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 7
+  paintBucket: {fileID: 1774338647}
 --- !u!224 &391585895 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5884159640580732120, guid: 40ce7242d7da0a549bc69b1f8b6015fc, type: 3}
@@ -1328,35 +1403,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &472564560
-Transform:
+--- !u!224 &472564560
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472564558}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1150181818}
   - {fileID: 106390235}
   - {fileID: 2027643311}
   - {fileID: 1795796267}
   - {fileID: 1158642430}
+  - {fileID: 1661783211}
+  - {fileID: 198200475}
   - {fileID: 803301191}
   - {fileID: 1080268744}
   - {fileID: 580324877}
   - {fileID: 1230943979}
   - {fileID: 1346218649}
-  - {fileID: 1661783211}
-  - {fileID: 198200475}
+  - {fileID: 128457909}
   - {fileID: 1281008666}
   - {fileID: 780382268}
   - {fileID: 383765888}
-  - {fileID: 128457909}
   - {fileID: 225307353}
   - {fileID: 1505504021}
   - {fileID: 1109028762}
@@ -1364,6 +1438,11 @@ Transform:
   - {fileID: 930901813}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 6.887755, y: 8.316326}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &474273478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1529,7 +1608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1576,6 +1655,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2081091608}
+  - {fileID: 1424277955}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1675,6 +1755,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &524428390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 524428392}
+  - component: {fileID: 524428391}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &524428391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524428390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25831b17a86e5a741a7f5157113b01cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorableParts: []
+  textCounter: {fileID: 1424277956}
+--- !u!4 &524428392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524428390}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 382.1621, y: 236.7659, z: 1.0285932}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &580324875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,9 +1813,10 @@ GameObject:
   - component: {fileID: 580324876}
   - component: {fileID: 580324879}
   - component: {fileID: 580324878}
+  - component: {fileID: 580324881}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Body_1
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1888,6 +2015,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &580324881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580324875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 0
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &780382267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1900,9 +2041,10 @@ GameObject:
   - component: {fileID: 780382271}
   - component: {fileID: 780382270}
   - component: {fileID: 780382269}
+  - component: {fileID: 780382272}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Shirt_2
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2140,6 +2282,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &780382272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780382267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 7
+  paintBucket: {fileID: 1774338647}
 --- !u!224 &789067210 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5884159640580732120, guid: 40ce7242d7da0a549bc69b1f8b6015fc, type: 3}
@@ -2157,9 +2313,10 @@ GameObject:
   - component: {fileID: 803301190}
   - component: {fileID: 803301193}
   - component: {fileID: 803301192}
+  - component: {fileID: 803301194}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Circle_1
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2352,6 +2509,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &803301194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803301189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 2
+  paintBucket: {fileID: 1774338647}
 --- !u!224 &832004533 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5884159640580732120, guid: 40ce7242d7da0a549bc69b1f8b6015fc, type: 3}
@@ -2369,9 +2540,10 @@ GameObject:
   - component: {fileID: 930901816}
   - component: {fileID: 930901815}
   - component: {fileID: 930901814}
+  - component: {fileID: 930901817}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Equipment
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2738,6 +2910,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &930901817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930901812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 6
+  paintBucket: {fileID: 1774338647}
 --- !u!1001 &1034375191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2867,9 +3053,10 @@ GameObject:
   - component: {fileID: 1080268747}
   - component: {fileID: 1080268746}
   - component: {fileID: 1080268745}
+  - component: {fileID: 1080268748}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Circle_2
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3060,6 +3247,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1080268748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080268743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 2
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &1109028761
 GameObject:
   m_ObjectHideFlags: 0
@@ -3072,9 +3273,10 @@ GameObject:
   - component: {fileID: 1109028765}
   - component: {fileID: 1109028764}
   - component: {fileID: 1109028763}
+  - component: {fileID: 1109028766}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Scarf_3
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3273,6 +3475,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1109028766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109028761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 1
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &1150181817
 GameObject:
   m_ObjectHideFlags: 0
@@ -3285,9 +3501,10 @@ GameObject:
   - component: {fileID: 1150181821}
   - component: {fileID: 1150181820}
   - component: {fileID: 1150181819}
+  - component: {fileID: 1150181822}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Hat
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3472,6 +3689,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1150181822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150181817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 5
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &1158642429
 GameObject:
   m_ObjectHideFlags: 0
@@ -3484,9 +3715,10 @@ GameObject:
   - component: {fileID: 1158642433}
   - component: {fileID: 1158642432}
   - component: {fileID: 1158642431}
+  - component: {fileID: 1158642434}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Hair_2
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3500,8 +3732,8 @@ Transform:
   m_GameObject: {fileID: 1158642429}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.280614, y: 1.505114, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.2822, y: 1.505114, z: 0}
+  m_LocalScale: {x: 0.99, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 472564560}
@@ -3638,6 +3870,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1158642434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158642429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 4
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &1230943978
 GameObject:
   m_ObjectHideFlags: 0
@@ -3650,9 +3896,10 @@ GameObject:
   - component: {fileID: 1230943982}
   - component: {fileID: 1230943981}
   - component: {fileID: 1230943980}
+  - component: {fileID: 1230943983}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Body_2
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3886,6 +4133,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1230943983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230943978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 0
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &1237868777
 GameObject:
   m_ObjectHideFlags: 0
@@ -3898,9 +4159,10 @@ GameObject:
   - component: {fileID: 1237868781}
   - component: {fileID: 1237868780}
   - component: {fileID: 1237868779}
+  - component: {fileID: 1237868782}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Scarf_4
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4053,6 +4315,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1237868782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237868777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 1
+  paintBucket: {fileID: 1774338647}
 --- !u!1001 &1275574614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4178,9 +4454,10 @@ GameObject:
   - component: {fileID: 1281008669}
   - component: {fileID: 1281008668}
   - component: {fileID: 1281008667}
+  - component: {fileID: 1281008670}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Shirt_1
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4336,6 +4613,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1281008670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281008665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 5
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &1346218648
 GameObject:
   m_ObjectHideFlags: 0
@@ -4348,9 +4639,10 @@ GameObject:
   - component: {fileID: 1346218652}
   - component: {fileID: 1346218651}
   - component: {fileID: 1346218650}
+  - component: {fileID: 1346218653}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Body_3
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4526,6 +4818,154 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1346218653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346218648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 0
+  paintBucket: {fileID: 1774338647}
+--- !u!1 &1424277954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1424277955}
+  - component: {fileID: 1424277957}
+  - component: {fileID: 1424277956}
+  m_Layer: 5
+  m_Name: CounterText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1424277955
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424277954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 479600977}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -16.2, y: -18.3}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1424277956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424277954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Correct parts 0 / 20
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20.9
+  m_fontSizeBase: 18
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -7.5671997, y: 0, z: 0, w: 21.552551}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1424277957
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424277954}
+  m_CullTransparentMesh: 1
 --- !u!1 &1505504020
 GameObject:
   m_ObjectHideFlags: 0
@@ -4538,9 +4978,10 @@ GameObject:
   - component: {fileID: 1505504024}
   - component: {fileID: 1505504023}
   - component: {fileID: 1505504022}
+  - component: {fileID: 1505504025}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Scarf_2
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4714,6 +5155,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1505504025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505504020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 1
+  paintBucket: {fileID: 1774338647}
 --- !u!1001 &1591735206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4960,9 +5415,10 @@ GameObject:
   - component: {fileID: 1661783214}
   - component: {fileID: 1661783213}
   - component: {fileID: 1661783212}
+  - component: {fileID: 1661783215}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Background_1
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5247,6 +5703,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1661783215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661783210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 2
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &1774338646
 GameObject:
   m_ObjectHideFlags: 0
@@ -5314,9 +5784,10 @@ GameObject:
   - component: {fileID: 1795796266}
   - component: {fileID: 1795796269}
   - component: {fileID: 1795796268}
+  - component: {fileID: 1795796270}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Hair_1
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5477,6 +5948,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1795796270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795796265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 4
+  paintBucket: {fileID: 1774338647}
 --- !u!224 &1842415650 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5884159640580732120, guid: 40ce7242d7da0a549bc69b1f8b6015fc, type: 3}
@@ -5611,9 +6096,10 @@ GameObject:
   - component: {fileID: 2027643314}
   - component: {fileID: 2027643313}
   - component: {fileID: 2027643312}
+  - component: {fileID: 2027643315}
   m_Layer: 0
   m_Name: Rembrand_TwoCircles_Moustache
-  m_TagString: Untagged
+  m_TagString: ColorablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5769,6 +6255,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2027643315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027643310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd95c213675a9c47a4a20b1ba348ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIndex: 4
+  paintBucket: {fileID: 1774338647}
 --- !u!1 &2081091607
 GameObject:
   m_ObjectHideFlags: 0
@@ -6030,7 +6530,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 472564560}
   - {fileID: 479600977}
   - {fileID: 2083802569}
   - {fileID: 1774338648}
-  - {fileID: 472564560}
+  - {fileID: 524428392}

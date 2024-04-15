@@ -28,7 +28,7 @@ public class PaintBucketScript: MonoBehaviour
             if (hit.collider!= null)
             {
                 SpriteRenderer sp = hit.collider.gameObject.GetComponent<SpriteRenderer>();
-                Debug.Log(hit.collider.name);
+                //Debug.Log(hit.collider.name);
 
                 sp.color = currentColor;
             }
@@ -38,6 +38,6 @@ public class PaintBucketScript: MonoBehaviour
     public void paint(int colorCode)
     {
         colorCount = colorCode;
-        Debug.Log(colorCode);
+        //Debug.Log(colorCode);
     }
 }
