@@ -24,7 +24,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         updateTextCounter();
-        checkWinCondition();
+        if (checkWinCondition())
+        {
+            CompleteLevel();
+        }
     }
 
     public void updateTextCounter()
@@ -48,12 +51,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void checkWinCondition()
+    public bool checkWinCondition()
     {
         if (correctlyColored == colorableParts.Length)
         {
-            CompleteLevel();
+            return true;
         }
+        return false;
     }
 
     public void CompleteLevel()
