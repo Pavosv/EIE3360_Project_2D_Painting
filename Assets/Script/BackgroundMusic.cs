@@ -15,7 +15,7 @@ public class BackgroundMusic : MonoBehaviour
     void Start()
     {
         music = GetComponent<AudioSource>();
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindObjectOfType<GameManager>(); //Get the game manager to detect when stage is cleared
         music.volume = 0f;
         StartCoroutine(Fade(true, music, fadeDuration, fadeInVolume));
         StartCoroutine(Fade(false, music, fadeDuration, fadeOutVolume));
@@ -23,9 +23,9 @@ public class BackgroundMusic : MonoBehaviour
 
     private void Update()
     {
-        if (gameManager.checkWinCondition())
+        if (gameManager.checkWinCondition()) //Only go into this block when win condition is true
         {
-            if (!isMusicStopped)
+            if (!isMusicStopped) //Force fade out if music is not stopped
             {
                 StartCoroutine(ForceFadeOut(music, 0f));
             }

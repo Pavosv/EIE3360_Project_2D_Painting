@@ -810,6 +810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeDuration: 7
+  forceFadeOutDuration: 1
   fadeInVolume: 0.2
   fadeOutVolume: 0
 --- !u!1 &128457908
@@ -2642,6 +2643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422ebe78dfaa298429616b69b429f652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextScene: PaintingGame_Vermeer
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -2753,6 +2753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422ebe78dfaa298429616b69b429f652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextScene: PaintingGame_Rembrandt
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

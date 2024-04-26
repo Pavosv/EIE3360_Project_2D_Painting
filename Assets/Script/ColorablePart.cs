@@ -21,7 +21,7 @@ public class ColorablePart : MonoBehaviour
 
     public bool IsCorrectlyColored()
     {
-        if(!correctlyColored && sp.color == paintBucket.colorList[colorIndex])
+        if(!correctlyColored && sp.color == paintBucket.colorList[colorIndex]) //Check is part has been correctly colored & color is the same as paintBucket
         {
             correctlyColored = true;
             return true;
@@ -31,7 +31,7 @@ public class ColorablePart : MonoBehaviour
 
     public bool CheckIncorrectColor()
     {
-        if (correctlyColored && sp.color != paintBucket.colorList[colorIndex])
+        if (correctlyColored && sp.color != paintBucket.colorList[colorIndex]) //If part has been correctly colored before, check if it has been wrongly colored
         {
             correctlyColored = false;
             return true;
